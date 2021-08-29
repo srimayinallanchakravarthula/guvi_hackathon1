@@ -1,0 +1,93 @@
+body {
+    font-family: 'Abel', sans-serif;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.product-grid {
+    margin: 50px;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.product-img {
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 10px;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.product-header {
+    background-image: url('https://image.shutterstock.com/image-photo/beauty-background-facial-cosmetic-products-260nw-1698488116.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-header .h4 {
+    padding-bottom: 1rem;
+    margin-top: 0px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    display: none;
+}
+
+.product-container:hover {
+    display: block;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 20px 20px 35px 10px rgba(50, 50, 50, 0.1);
+    background: white;
+    overflow: hidden;
+}
+
+.product-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 20px 20px 35px 10px rgba(50, 50, 50, 0.1);
+    overflow: hidden;
+}
+
+.product-container:hover .description {
+    display: block;
+    font-size: 0.8rem;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 0 3px 3px 3px;
+}
