@@ -21,7 +21,7 @@ const hr = document.createElement('hr')
 async function getProducts() {
     let response;
     try {
-        response = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
+        response = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json")
     } catch (error) {
         console.log("Error in fetching the data from API")
         console.log(error)
