@@ -23,21 +23,22 @@ body {
     text-transform: uppercase;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 10px;
-    display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .product-header {
-    background-image: url('https://image.shutterstock.com/image-photo/beauty-background-facial-cosmetic-products-260nw-1698488116.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4gv4ioFGZjiTX1jqALf5krysjiEPVfqauQ&usqp=CAU');
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 10rem;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .product-header .h4 {
+    padding-bottom: 1rem;
     margin-top: 0px;
 }
 
